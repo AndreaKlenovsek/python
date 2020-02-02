@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 
-
+{% block title %}
+<title>Index Page</title>
+{% endblock title %}
 {% block content %}
     <p>Hello, index.html here!</p>
+  <p>{{some_text}}</p>
+    <p>Current year: {{current_year}}</p>
 {% endblock content %}
